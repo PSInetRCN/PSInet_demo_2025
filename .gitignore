@@ -1,0 +1,6 @@
+# Contains personal/project specific info
+.Renviron
+.Rproj.user
+
+# No need to track - can obtain again from PSInetDB
+psinet.duckdb
