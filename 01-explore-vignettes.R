@@ -20,8 +20,12 @@ vignette("getting-started", package = "PSInetR")
 
 
 
+#### Third vignette ####
+vignette("data-analysis-examples", package = "PSInetR")
 
-#### Second vignette ####
+
+
+#### Third vignette ####
 vignette("working-with-duckdb", package = "PSInetR")
 
 
