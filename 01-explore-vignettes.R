@@ -19,8 +19,7 @@ library(dbplyr)
 vignette("getting-started", package = "PSInetR")
 
 
-
-#### Third vignette ####
+#### Second vignette ####
 vignette("data-analysis-examples", package = "PSInetR")
 
 
