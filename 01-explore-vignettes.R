@@ -14,17 +14,17 @@ library(duckdb)
 library(dplyr)
 library(dbplyr)
 
-
 #### First vignette ####
 vignette("getting-started", package = "PSInetR")
+get_psi_data(overwrite = TRUE)
 
 
 #### Second vignette ####
-vignette("data-analysis-examples", package = "PSInetR")
-
+vignette("working-with-duckdb", package = "PSInetR")
 
 
 #### Third vignette ####
-vignette("working-with-duckdb", package = "PSInetR")
+vignette("data-analysis-examples", package = "PSInetR")
+
 
 
