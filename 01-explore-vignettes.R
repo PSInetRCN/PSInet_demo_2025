@@ -16,7 +16,10 @@ library(dbplyr)
 
 #### First vignette ####
 vignette("getting-started", package = "PSInetR")
-get_psi_data(overwrite = TRUE)
+# get_psi_data(overwrite = TRUE)
+get_psi_data(overwrite = TRUE,
+             github_token = "YOURTOKENHERE")
+
 
 
 #### Second vignette ####
