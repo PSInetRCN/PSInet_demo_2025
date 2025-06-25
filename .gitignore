@@ -5,6 +5,7 @@
 # No need to track - can obtain again from PSInetDB
 psinet.duckdb
 
-# Jessica's debugging files
+# Jessica's files
 debug/
 notes_sfn
+data/
