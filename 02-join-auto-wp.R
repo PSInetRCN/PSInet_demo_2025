@@ -81,3 +81,7 @@ write_csv(all_auto, file = "data/all_auto_joined.csv")
 
 
 # 
+plant_sum <- plant |> 
+  group_by(genus, specific_epithet) |> 
+  summarize(n = n()) |> 
+  arrange(desc(n))
